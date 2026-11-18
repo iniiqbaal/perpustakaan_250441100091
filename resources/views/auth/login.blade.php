@@ -1,6 +1,7 @@
 <x-guest-layout>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
+    <p>Login Ke akun anda - 250441100091</p>
 
     <form method="POST" action="{{ route('login') }}">
         @csrf
